@@ -1,0 +1,20 @@
+spring:
+  cloud:
+    stream:
+      function:
+        defination: domainProcessor
+      bindings:
+          domainProcessor-in-0:
+           destination: web-domain
+          domainProcessor-out-0:
+           destination: active.web-domain
+      kafka:
+        bindings:
+          domainProcessor-in-0:
+           consumer:
+            co
+          
+             
+
+
+          
